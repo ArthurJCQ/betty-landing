@@ -49,15 +49,9 @@
         .container { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
         .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-        /* Brand placeholders: replace with the Betty logo and logotype once they exist. */
         .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-        .logo-placeholder {
-            width: 40px; height: 40px; border-radius: 14px; flex-shrink: 0;
-            border: 2px dashed currentColor; opacity: .85;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 9px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase;
-        }
-        .logotype-placeholder { font-size: 22px; font-weight: 700; letter-spacing: -.6px; }
+        .logo-mark { width: 40px; height: 40px; border-radius: 14px; flex-shrink: 0; }
+        .logotype { height: 24px; width: auto; }
 
         .btn {
             display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -261,9 +255,8 @@
         <div class="container">
             <div class="bar">
                 <a href="#" class="brand" aria-label="Betty, accueil">
-                    <!-- TODO: replace with the Betty logo and logotype -->
-                    <span class="logo-placeholder" aria-hidden="true">Logo</span>
-                    <span class="logotype-placeholder">Betty</span>
+                    <img src="brand/icon.svg" alt="" class="logo-mark">
+                    <img src="brand/logotype-white.svg" alt="Betty" class="logotype">
                 </a>
                 <nav aria-label="Navigation principale">
                     <a href="#fonctionnalites">Fonctionnalités</a>
@@ -803,7 +796,7 @@
             <div class="container">
                 <div class="cta">
                     <div class="cta-intro">
-                        <span class="logo-placeholder" aria-hidden="true" style="width: 64px; height: 64px; border-radius: 22px; font-size: 11px">Logo</span>
+                        <img src="brand/icon.svg" alt="" class="logo-mark" style="width: 64px; height: 64px; border-radius: 22px">
                         <h2>Envie de faire jouer vos équipes pour la bonne cause ?</h2>
                         <p>Laissez-nous un message : nous revenons vers vous pour vous présenter Betty et préparer le lancement dans votre entreprise.</p>
                     </div>
@@ -841,9 +834,8 @@
         <div class="container">
             <div class="row">
                 <a href="#" class="brand" aria-label="Betty, haut de page">
-                    <!-- TODO: replace with the Betty logo and logotype -->
-                    <span class="logo-placeholder" aria-hidden="true">Logo</span>
-                    <span class="logotype-placeholder">Betty</span>
+                    <img src="brand/icon.svg" alt="" class="logo-mark">
+                    <img src="brand/logotype.svg" alt="Betty" class="logotype">
                 </a>
                 <nav aria-label="Liens de pied de page">
                     <a href="#fonctionnalites">Fonctionnalités</a>
