@@ -34,13 +34,8 @@
         .container { max-width: 1160px; margin: 0 auto; padding: 0 20px; }
 
         .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-        .logo-placeholder {
-            width: 40px; height: 40px; border-radius: 14px; flex-shrink: 0;
-            border: 2px dashed currentColor; opacity: .85;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 9px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase;
-        }
-        .logotype-placeholder { font-size: 22px; font-weight: 700; letter-spacing: -.6px; }
+        .logo-mark { width: 40px; height: 40px; border-radius: 14px; flex-shrink: 0; }
+        .logotype { height: 24px; width: auto; }
         .btn { display: inline-flex; align-items: center; justify-content: center; height: 44px; padding: 0 18px; border-radius: 999px; font: 600 15px var(--font); text-decoration: none; background: var(--secondary); color: var(--on-secondary); }
 
         .site-header { position: sticky; top: 0; z-index: 50; padding: 12px 0; }
@@ -82,9 +77,8 @@
         <div class="container">
             <div class="bar">
                 <a href="./" class="brand" aria-label="Betty, accueil">
-                    <!-- TODO: replace with the Betty logo and logotype -->
-                    <span class="logo-placeholder" aria-hidden="true">Logo</span>
-                    <span class="logotype-placeholder">Betty</span>
+                    <img src="brand/icon.svg" alt="" class="logo-mark">
+                    <img src="brand/logotype-white.svg" alt="Betty" class="logotype">
                 </a>
                 <a href="./#contact" class="btn">Nous contacter</a>
             </div>
@@ -247,9 +241,8 @@
         <div class="container">
             <div class="row">
                 <a href="./" class="brand" aria-label="Betty, accueil">
-                    <!-- TODO: replace with the Betty logo and logotype -->
-                    <span class="logo-placeholder" aria-hidden="true">Logo</span>
-                    <span class="logotype-placeholder">Betty</span>
+                    <img src="brand/icon.svg" alt="" class="logo-mark">
+                    <img src="brand/logotype.svg" alt="Betty" class="logotype">
                 </a>
                 <nav aria-label="Liens de pied de page">
                     <a href="./">Accueil</a>
